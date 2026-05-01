@@ -275,6 +275,11 @@ footer {
     letter-spacing: 0.4px;
 }
 
+.theme-selector{
+    position: absolute;
+    opacity: 50%;
+}
+
 /* ===== RESPONSIVO ===== */
 @media (max-width: 750px) {
     header {

@@ -6,13 +6,51 @@
     <link rel="icon" href="WhatsApp_Image_2026-05-01_at_13.09.20-removebg-preview(1).png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gisele de Dudinha | Vereadora</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" id="theme-style">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
+
+        <div class="theme-selector">
+            <button class="theme-btn" id="themeToggle" title="Alternar tema">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+            </button>
+            <div class="theme-menu" id="themeMenu">
+                <button class="theme-option active" data-theme="style">
+                    <span class="color-dot" style="background: linear-gradient(135deg, #0a3d62, #e55039);"></span>
+                    Clássico
+                </button>
+                <button class="theme-option" data-theme="style1">
+                    <span class="color-dot" style="background: linear-gradient(135deg, #1a3c34, #c8a96e);"></span>
+                    Elegante
+                </button>
+                <button class="theme-option" data-theme="style2">
+                    <span class="color-dot" style="background: linear-gradient(135deg, #6C5CE7, #00CEC9);"></span>
+                    Premium
+                </button>
+                <button class="theme-option" data-theme="style3">
+                    <span class="color-dot" style="background: linear-gradient(135deg, #2d3436, #b2bec3);"></span>
+                    Clean
+                </button>
+            </div>
+        </div>
+
+
+
         <div class="logo-text">Gisele de Dudinha</div>
         <a href="https://www.instagram.com/giselededudinha/" class="nav-agende" target="_blank" rel="noopener">
             <span>✉</span>
@@ -31,10 +69,9 @@
         </div>
 
         <div class="hero-image">
-            <picture>
                 <source media="(max-width: 750px)" srcset="ide.png">
-                <img fetchpriority="high" src="ChatGPT_Image_1_de_mai._de_2026__13_18_43-removebg-preview.png" alt="Vereadora Gisele de Dudinha">
-            </picture>
+                <img fetchpriority="high" src="ChatGPT_Image_1_de_mai._de_2026__13_18_43-removebg-preview.png"
+                    alt="Vereadora Gisele de Dudinha">
         </div>
     </section>
 
@@ -43,12 +80,14 @@
         <div class="services-grid">
             <div class="card">
                 <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=400&auto=format&fit=crop" alt="Profissional de saúde">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=400&auto=format&fit=crop"
+                        alt="Profissional de saúde">
                 </div>
                 <div class="card-content">
                     <div>
                         <h3>Saúde</h3>
-                        <p>Principal bandeira do mandato, com foco em políticas públicas que garantam acesso à saúde de qualidade para todos.</p>
+                        <p>Principal bandeira do mandato, com foco em políticas públicas que garantam acesso à saúde de
+                            qualidade para todos.</p>
                     </div>
                     <div class="card-footer">Relatora da Comissão de Saúde</div>
                 </div>
@@ -56,12 +95,14 @@
 
             <div class="card">
                 <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop" alt="Mãe e criança">
+                    <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop"
+                        alt="Mãe e criança">
                 </div>
                 <div class="card-content">
                     <div>
                         <h3>Inclusão</h3>
-                        <p>Mãe atípica engajada na luta pela inclusão e acolhimento de crianças com necessidades especiais.</p>
+                        <p>Mãe atípica engajada na luta pela inclusão e acolhimento de crianças com necessidades
+                            especiais.</p>
                     </div>
                     <div class="card-footer">Defesa da Pessoa com Deficiência</div>
                 </div>
@@ -69,12 +110,14 @@
 
             <div class="card">
                 <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=400&auto=format&fit=crop" alt="Grupo de mulheres">
+                    <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=400&auto=format&fit=crop"
+                        alt="Grupo de mulheres">
                 </div>
                 <div class="card-content">
                     <div>
                         <h3>Direitos das Mulheres</h3>
-                        <p>Voz ativa na defesa dos direitos das mulheres, com atuação destacada em pautas inclusivas e protetivas.</p>
+                        <p>Voz ativa na defesa dos direitos das mulheres, com atuação destacada em pautas inclusivas e
+                            protetivas.</p>
                     </div>
                     <div class="card-footer">Relatora da Comissão da Mulher</div>
                 </div>
@@ -82,12 +125,14 @@
 
             <div class="card">
                 <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=400&auto=format&fit=crop" alt="Comunidade reunida">
+                    <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=400&auto=format&fit=crop"
+                        alt="Comunidade reunida">
                 </div>
                 <div class="card-content">
                     <div>
                         <h3>Comunidade</h3>
-                        <p>Atuação em comunidades periféricas como Alto da Bela Vista, com mandato participativo e próximo da população.</p>
+                        <p>Atuação em comunidades periféricas como Alto da Bela Vista, com mandato participativo e
+                            próximo da população.</p>
                     </div>
                     <div class="card-footer">Legislatura 2025–2028</div>
                 </div>
@@ -118,5 +163,6 @@
     </footer>
 
 </body>
+<script src="script.js"></script>
 
 </html>
